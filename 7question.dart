@@ -1,12 +1,13 @@
-//create two integer variables length and breadth and assign values then check if they are square values or rectangle values. i.e: if both values are equal then it's square otherwise rectangle.
+//Write a Dart program to check if a given number is positive, negative, or zero.
 
 void main() {
-  int length = 45;
-  int breadth = 45;
+  int number = -10;
 
-  if (length == breadth) {
-    print("The shape is a square.");
+  if (number > 0) {
+    print("The number is positive.");
+  } else if (number < 0) {
+    print("The number is negative.");
   } else {
-    print("The shape is a rectangle.");
+    print("The number is zero.");
   }
 }
